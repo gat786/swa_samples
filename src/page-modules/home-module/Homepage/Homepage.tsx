@@ -2,10 +2,9 @@ import * as React from 'react';
 import { useState } from 'react';
 
 const Homepage = () => {
-  return <div className="flex flex-col items-center justify-center h-screen">
-    <p className="text-4xl">Welcome to home page bros.</p>
-    <div className="text-blue-500 text-3xl my-4">I'm styled with tailwind</div>
-    <div className="text-2xl">I am routed with help of react-router</div>
+  return <div className="flex flex-col gap-4 items-center justify-center h-screen">
+    <p className="text-4xl">Trying out Static Web apps authentication</p>
+    <p className="text-blue-500">Go to `/login` to try out logging in</p>
   </div>
 }
 
