@@ -11,6 +11,10 @@
       {
           "route": "/login",
           "rewrite": "/.auth/login/twitter"
+      },
+      {
+          "route": "/logout",
+          "rewrite": "/.auth/logout"
       }
   ]
 }
